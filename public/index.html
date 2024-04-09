@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Name: Sebastian Duarte
+    Assignment: CSC340 HW 4
+    File Contents: Front-end page for tasklist webapp
+-->
+
+    <head>
+
+        <title> Task List </title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="scripts.js"></script>
+
+    </head>
+    <body>
+        <header>
+            Task List
+        </header>
+
+        <div id="table-container"> 
+            <table id="taskTable">
+            </table>
+        </div>
+
+        <h2>Add Task: </h2>
+        <div id="add">
+            <div class="flex-container">
+                <input type="text" id="createName" placeholder="Enter name:">
+                <input type="text" id="createPriority" placeholder="Enter priority:">
+                <input type="text" id="createDescription" placeholder="Enter description:">
+                <button id="create">Add Task</button>
+            </div>
+        </div>
+
+        <h2>Edit Task: </h2>
+        <div id="edit">
+            <div class="flex-container">
+                <input type="text" id="editName" placeholder="Name of existing task:">
+                <input type="text" id="editPriority" placeholder="Enter priority:">
+                <input type="text" id="editDescription" placeholder="Enter description:">
+                <button id="edit">Edit Task</button>
+            </div>
+        </div>
+        
+        
+
+        <h2>Delete Task: </h2>
+        <div id="delete">
+            <div class="flex-container">
+                <input type="text" id="deleteName" placeholder="Name of existing task:">
+                <button id="delete">Delete Task</button>
+            </div>
+
+        </div>
+        
+        
+        
+    </body>
+</html>
